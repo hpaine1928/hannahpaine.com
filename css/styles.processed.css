@@ -10,6 +10,7 @@
     transform: rotate(359deg);
   }
 }
+/* this is bullshit */
 
 @keyframes spinAround {
   from {
