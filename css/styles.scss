@@ -1,0 +1,105 @@
+// Bulma Framework
+@import "bulma.min";
+
+// Your Styles
+
+html {
+  background: #000;
+}
+
+body {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488098/photo-1440330033336-7dcff4630cef.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.navbar.is-info {
+    background-color: #fff;
+    color: #000;
+  font-family: 'Futura', 'sans-serif';
+}
+
+.hero-body {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488098/photo-1440330033336-7dcff4630cef.jpg') no-repeat center center fixed;
+	background-size: cover;
+  padding: 200px;
+}
+
+.hero.is-light .title {
+  font-family: 'Futura', 'sans-serif';
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: #000;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 1.5px;
+  padding: 0px 100px 0 100px;
+}
+
+.navbar-link.is-active,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:hover {
+  font-family: 'Futura';
+  background-color: black;
+  color: #fff;
+}
+
+.navbar-link::after {
+    border-color: #000;
+    margin-top: -.375em;
+    right: 1.125em;
+  background-color: black;
+}
+
+.subtitle {
+  color: black;
+  font-family: 'Futura', 'sans-serif';
+  text-transform: uppercase;
+  color: #000;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 1.5px;
+}
+
+// .navbar-item.has-dropdown:hover .navbar-link {
+   // background-color: #fff;
+   // color: #fff;
+//}
+
+.navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link, .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link {
+    background-color: white;
+    color: #000;
+}
+
+
+.logo {
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.columns {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contact {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.label {
+  color: white;
+}
+
+.contactinfo {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.is-small {
+  color: white;
+}
+
+.resumetext {
+  width: 50%;
+  margin: 0 auto;
+}
